@@ -3,12 +3,12 @@ from binance import Client
 import time 
 from binance.enums import *
 from binance.helpers import round_step_size
-
+import key
 
 symbol = 'BTCUSDT'
 
-api_key = 'zyN3R5T1FOPwKLBvxnf09X6EkKzcIEBCes1RpNqD6moXU7YoqOBX3M2vFcUgCAQy'
-api_secret = 'dQMgSnNJs3MrBvU5qx65WYmn7PIAK9o0LLjLLVmPicjjCsWTA3iFA6H9UwDKn55h'
+api_key = key.api_key
+api_secret = key.api_secret
 
 
 FreeUSDT = 100.0
